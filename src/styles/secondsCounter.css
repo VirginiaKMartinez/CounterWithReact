@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+
+
+.counter{
+    margin: 0;
+    margin-top:5%;
+    margin-left: 0.4%;
+    /*background-image: linear-gradient(#1f1f1f, #333333);*/
+    background: #3d88a8;
+    color:#fdfdfd;
+    border-radius: 10px;
+    width: 7%;
+    height: 7%;
+    
+  
+   
+}
+
+.number{
+    font-family: Roboto Mono;
+    padding: 5%;
+    text-align: center;
+    font-size:72px;
+    color: #fdfdfd;
+}

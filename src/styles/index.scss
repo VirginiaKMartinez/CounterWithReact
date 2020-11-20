@@ -1,5 +1,9 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+
 /* 
 
     You can write your own styles here...
@@ -11,3 +15,48 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    //background-image: linear-gradient(#c2e9fa, #83c0d7);
+    background: #fdfdfd;
+}
+
+.blockTitle{
+    margin: 0;
+    margin-top: 3%;
+}
+
+.firtsLine{
+    margin: 0;
+    margin-bottom: -1.5rem;
+    padding-left:9px;
+    font-family: Roboto Mono;
+    font-size: 26px;
+    text-align: left;
+    color: #29708e;
+}
+
+.secondLine{
+    margin: 0;
+    
+    color:#29708e;
+    text-align: left;
+    font-size:125px;
+}
+
+
+
+.far{
+    //ICONO RELOJ DEL CONTADOR
+    margin: 0;
+    margin-top:5%;
+   
+    /*background-image: linear-gradient(#1f1f1f, #333333);*/
+    background: #3d88a8;
+    color:#fdfdfd;
+    border-radius: 10px;
+    width: 7%;
+    padding: 1%;
+    text-align: center;
+    font-size:72px;
+}
+
