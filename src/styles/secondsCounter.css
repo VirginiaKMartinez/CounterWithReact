@@ -7,14 +7,14 @@
 
 .counter{
     margin: 0;
-    margin-top:5%;
+    margin-top:3%;
     margin-left: 0.4%;
-    /*background-image: linear-gradient(#1f1f1f, #333333);*/
-    background: #3d88a8;
+    background-image: linear-gradient(#498daa, #29708e);
+    //background: #3d88a8;
     color:#fdfdfd;
-    border-radius: 10px;
-    width: 7%;
-    height: 7%;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
     
   
    
