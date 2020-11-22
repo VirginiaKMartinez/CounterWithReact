@@ -15,7 +15,7 @@ export function Home() {
 					</h2>
 				</div>
 			</div>
-			<div className="row justify-content-center">
+			<div className="row justify-content-center ">
 				<i className="far fa-clock" />
 				<SecondsCounter delay={100000000} />
 				<SecondsCounter delay={10000000} />
@@ -24,13 +24,17 @@ export function Home() {
 				<SecondsCounter delay={10000} />
 				<SecondsCounter delay={1000} />
 			</div>
-			<p>
-				Contador de segundos creado con React. Todas las cifras son el
-				mismo componente llamado 6 veces con un propType que le
-				condiciona cada cuánto tiempo sumar un número a su contador. Así
-				damos la sensación de ser un segundero que acumula una cifra
-				total.
-			</p>
+			<div className="row justify-content-center">
+				<p>
+					<p className="fraseDestacada">
+						Second counter created with React.
+					</p>
+					All figures are the same component called 6 times with a
+					propType that determines how often to add a number to the
+					amount. Thus we give the feeling of having a counter that
+					accumulates a total figure.
+				</p>
+			</div>
 		</div>
 	);
 }
