@@ -1,6 +1,5 @@
 import React from "react";
 import SecondsCounter from "./secondsCounter.jsx";
-import SecondsCounter_copy from "./secondsCounter_copy.jsx";
 import index from "../../styles/index.scss";
 
 //create your first component
